@@ -258,3 +258,38 @@ a:focus-visible, button:focus-visible, .icon-btn:focus-visible, .pill:focus-visi
   .xp-toggle .role, .xp-toggle .org { grid-column:1/2; }
   .xp-toggle .when { grid-column:2/3; }
 }
+
+.thumb {
+  width: 300px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.thumb:hover {
+  transform: scale(1.02);
+}
+
+.proj-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.proj-shot {
+  text-align: center;
+}
+
+.proj-shot img {
+  width: 100%;
+  max-width: 420px;        /* prevents giant images */
+  border-radius: 10px;     /* rounded corners */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.35);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.proj-shot figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--muted-text, #9ca3af);
+}
