@@ -37,7 +37,7 @@
         <div class="hero-copy">
           <h1><span class="hi">Hello, I'm</span><br><span class="name">Shadi Barakat</span></h1>
           <p class="lead">
-            Computer Science graduate from College of Staten Island.
+            Computer Science graduate from College of Staten Island, focused on IT systems, networking, and infrastructure.
           </p>
           <ul class="quick social">
             <li>
@@ -83,28 +83,42 @@
           <h2>Technical Skills</h2>
           <div class="filters" role="tablist" aria-label="Skill filters">
             <button class="pill is-active" data-scope="all" role="tab" aria-selected="true">All</button>
+            <button class="pill" data-scope="systems" role="tab" aria-selected="false">IT Systems</button>
+            <button class="pill" data-scope="networking" role="tab" aria-selected="false">Networking</button>
             <button class="pill" data-scope="lang" role="tab" aria-selected="false">Languages</button>
-            <button class="pill" data-scope="frameworks" role="tab" aria-selected="false">Frameworks</button>
             <button class="pill" data-scope="tools" role="tab" aria-selected="false">Tools</button>
+            <button class="pill" data-scope="cloud" role="tab" aria-selected="false">Cloud</button>
             <button class="pill" data-scope="cert" role="tab" aria-selected="false">Certifications</button>
           </div>
         </header>
         <div id="skillDeck" class="deck skills">
+          <article class="card" data-scope="systems">
+            <h3>IT Systems & Support</h3>
+            <p>Active Directory, Windows Server, Microsoft 365, Windows 10/11 troubleshooting, Linux, Group Policy</p>
+          </article>
+          <article class="card" data-scope="networking">
+            <h3>Networking</h3>
+            <p>TCP/IP, DNS, DHCP, VLANs, VPN, network troubleshooting</p>
+          </article>
+          <article class="card" data-scope="tools">
+            <h3>IT Support Tools</h3>
+            <p>ServiceNow, incident management, SLA tracking, CRM systems, remote desktop support</p>
+          </article>
+          <article class="card" data-scope="cloud">
+            <h3>Cloud & Virtualization</h3>
+            <p>Microsoft Azure, virtual machines</p>
+          </article>
           <article class="card" data-scope="lang">
             <h3>Languages</h3>
             <p>C++, Python, Java, JavaScript, TypeScript, SQL, HTML5, CSS3</p>
           </article>
-          <article class="card" data-scope="frameworks">
-            <h3>Frameworks & Tech</h3>
-            <p>React, Node.js, Azure, Docker, Postman, Microsoft Visual Studio</p>
-          </article>
           <article class="card" data-scope="tools">
-            <h3>Tools</h3>
-            <p>Git & GitHub, REST APIs, Bash, Linux</p>
+            <h3>Dev Frameworks & Tech</h3>
+            <p>React, Node.js, Docker, Postman, Microsoft Visual Studio, Git & GitHub, REST APIs, Bash</p>
           </article>
           <article class="card" data-scope="cert">
             <h3>Certifications</h3>
-            <p>CompTIA Network+ (Expected Dec 2025)</p>
+            <p>CompTIA A+ (May 2026)</p>
           </article>
         </div>
       </section>
@@ -114,6 +128,75 @@
         <header class="section-head"><h2>Experience</h2></header>
       
         <ol class="timeline" id="xp">
+          <!-- Nagarro -->
+          <li class="node">
+            <button class="xp-toggle" aria-expanded="false">
+              <span class="col role">IT Help Desk Analyst</span>
+              <span class="col org">Nagarro</span>
+              <span class="col when">Starting Jul 2026</span>
+            </button>
+            <div class="xp-detail" hidden>
+              <ul>
+                <li>Provide Tier 1 technical support for hardware, software, and account issues via phone, email, and chat in a fast-paced enterprise environment.</li>
+                <li>Log, track, and manage incidents and service requests using ServiceNow.</li>
+                <li>Troubleshoot Windows, Microsoft 365, and basic network connectivity issues (DNS, VPN, Wi-Fi).</li>
+                <li>Escalate complex technical issues to Tier 2/3 support while ensuring SLA compliance.</li>
+                <li>Assist with user account setup, password resets, and access management through Active Directory.</li>
+                <li>Maintain accurate documentation of incidents, resolutions, and support activities in ServiceNow.</li>
+              </ul>
+            </div>
+          </li>
+
+          <!-- Brooklyn Property Managers -->
+          <li class="node">
+            <button class="xp-toggle" aria-expanded="false">
+              <span class="col role">Maintenance Coordinator</span>
+              <span class="col org">Brooklyn Property Managers</span>
+              <span class="col when">Jan 2026 – Present</span>
+            </button>
+            <div class="xp-detail" hidden>
+              <ul>
+                <li>Managed maintenance tickets and work orders across multiple properties using tracking systems.</li>
+                <li>Coordinated vendors and technicians, ensuring timely issue resolution and service-level consistency.</li>
+                <li>Maintained documentation, reporting, and workflow tracking to improve operational visibility.</li>
+                <li>Streamlined scheduling and prioritization processes, improving response efficiency.</li>
+                <li>Acted as liaison between tenants, vendors, and internal teams to resolve technical and operational issues.</li>
+              </ul>
+            </div>
+          </li>
+
+          <!-- The Difference App -->
+          <li class="node">
+            <button class="xp-toggle" aria-expanded="false">
+              <span class="col role">IT Intern</span>
+              <span class="col org">The Difference App LLC</span>
+              <span class="col when">Jun 2025 – Aug 2025</span>
+            </button>
+            <div class="xp-detail" hidden>
+              <ul>
+                <li>Supported day-to-day IT operations including Active Directory account management, Microsoft 365 administration, device troubleshooting, and application support.</li>
+                <li>Monitored system performance and resolved issues involving Windows Server, DNS/DHCP, network connectivity (TCP/IP), permissions, and software deployment.</li>
+                <li>Assisted with ticket tracking and internal IT documentation.</li>
+              </ul>
+            </div>
+          </li>
+
+          <!-- Alpha Prime Tech -->
+          <li class="node">
+            <button class="xp-toggle" aria-expanded="false">
+              <span class="col role">Freelance Front-end Developer</span>
+              <span class="col org">Alpha Prime Tech</span>
+              <span class="col when">Apr 2024 – Jun 2024</span>
+            </button>
+            <div class="xp-detail" hidden>
+              <ul>
+                <li>Built and deployed 3 responsive sites with React, Node.js, SQL.</li>
+                <li>Improved site performance by 30% through optimized front-end design.</li>
+                <li>Collaborated with clients to gather requirements and deploy custom solutions.</li>
+              </ul>
+            </div>
+          </li>
+
           <!-- NIA -->
           <li class="node">
             <button class="xp-toggle" aria-expanded="false">
@@ -128,37 +211,7 @@
               </ul>
             </div>
           </li>
-      
-          <!-- Alpha Prime Tech -->
-          <li class="node">
-            <button class="xp-toggle" aria-expanded="false">
-              <span class="col role">Freelance Front-end Developer</span>
-              <span class="col org">Alpha Prime Tech</span>
-              <span class="col when">Apr 2024 – Jun 2024</span>
-            </button>
-            <div class="xp-detail" hidden>
-              <ul>
-                <li>Built 3 responsive sites (HTML/CSS/Bootstrap/React/Node/TS/SQL), cutting load times by 20%.</li>
-                <li>Improved project efficiency 25% via Agile workflows.</li>
-              </ul>
-            </div>
-          </li>
-      
-          <!-- The Difference App -->
-          <li class="node">
-            <button class="xp-toggle" aria-expanded="false">
-              <span class="col role">Software Engineer Intern</span>
-              <span class="col org">The Difference App LLC</span>
-              <span class="col when">Jun 2025 – Aug 2025</span>
-            </button>
-            <div class="xp-detail" hidden>
-              <ul>
-                <li>Enhanced layout, content, and functionality with the dev team.</li>
-                <li>Improved SEO via metadata and structured fixes.</li>
-              </ul>
-            </div>
-          </li>
-      
+
           <!-- Aligner -->
           <li class="node">
             <button class="xp-toggle" aria-expanded="false">
@@ -204,15 +257,17 @@
 
 
         
-          <article class="card proj" data-tags="windows server active directory virtualbox security dns dhcp">
+          <article class="card proj" data-tags="windows server active directory virtualbox security dns dhcp aduc gpo">
             <header>
               <h3>Active Directory Enterprise Home Lab</h3>
-              <p class="stack">Windows Server · Windows 10 · VirtualBox</p>
+              <p class="stack">Windows Server 2019 · VirtualBox</p>
+              <p class="when">December 2025</p>
             </header>
             <p>
-              Built a full Active Directory domain environment with a Windows Server Domain Controller and a Windows 10
-              client in an isolated virtual network. Configured DNS, DHCP, OUs, users, groups, and Group Policies to
-              simulate real enterprise identity and access management.
+              Built an Active Directory environment using Windows Server 2019, Active Directory Users & Computers
+              (ADUC), DNS, DHCP, and Group Policy Objects (GPOs). Configured DNS, DHCP, OUs, users, groups, and GPOs;
+              troubleshot domain joins, authentication, and GPO propagation issues. Implemented GPOs to manage
+              security baselines, login scripts, and user configurations.
             </p>
             <a href="https://imgur.com/gallery/active-directory-home-lab-JgVQd8A"
                target="_blank" rel="noopener"
@@ -220,7 +275,35 @@
 
             
           </article>
-          
+
+          <article class="card proj" data-tags="voip simplevoip yealink appfolio property management telephony">
+            <header>
+              <h3>VOIP System Deployment</h3>
+              <p class="stack">SimpleVOIP · Yealink · AppFolio</p>
+              <p class="when">April 2026</p>
+            </header>
+            <p>
+              Deployed and configured a SimpleVOIP cloud-based phone system for a 13-user property management office.
+              Provisioned Yealink desk phones and assigned individual extensions across the organization, configured
+              call routing for inbound and outbound calls, and integrated the system with AppFolio property
+              management software. Managed the full end-to-end rollout from hardware setup to live deployment with
+              minimal disruption to daily operations.
+            </p>
+          </article>
+      
+          <article class="card proj" data-tags="azure networking security vpn vnet certificate aes">
+            <header>
+              <h3>VPN on Microsoft Azure</h3>
+              <p class="stack">Azure · Networking</p>
+              <p class="when">August 2025</p>
+            </header>
+            <p>
+              Deployed a secure AES-encrypted VPN using Azure VPN Gateway; configured routing, TCP/IP settings,
+              subnets, and certificate authentication. Configured VNets, subnets, and routing, and validated
+              performance of the secure remote-access connection.
+            </p>
+          </article>
+
           <article class="card proj" data-tags="java javafx algorithms">
             <header>
               <h3>Sorting Algorithm Visualizer</h3>
@@ -228,15 +311,6 @@
             </header>
             <p>Interactive visualizer implementing Bubble, Selection, and Insertion Sort.</p>
             
-          </article>
-      
-          <article class="card proj" data-tags="azure networking security vpn">
-            <header>
-              <h3>VPN on Microsoft Azure</h3>
-              <p class="stack">Azure · Networking</p>
-            </header>
-            <p>Deployed a secure Point-to-Site VPN with VNet/subnets and encryption.</p>
-    
           </article>
       
           <article class="card proj" data-tags="java game">
@@ -258,7 +332,7 @@
       <section id="education" class="panel">
         <header class="section-head"><h2>Education</h2></header>
         <p><strong>City University of New York, College of Staten Island</strong> — B.S. in Computer Science</p>
-        <p class="muted">Relevant Coursework: C++ Programming, Data Structures, Operating Systems, Cryptography, Algorithm Analysis, Linear Algebra, Calculus II, Database Systems</p>
+        <p class="muted">Relevant Coursework: Networking, Operating Systems, Cryptography, Algorithms, Computer Hardware, Computer Architecture</p>
       </section>
 
       <!-- CONTACT -->
@@ -293,3 +367,4 @@
     <script src="script.js"></script>
   </body>
 </html>
+```
